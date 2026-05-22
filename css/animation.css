@@ -12,6 +12,17 @@
         blink 0.7s infinite;
 }
 
+.cursor {
+    animation: blinkCursor 1.5s infinite;
+}
+
+@keyframes blinkCursor {
+
+    50% {
+        opacity: 0;
+    }
+}
+
 @keyframes typing {
 
     from {
