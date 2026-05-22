@@ -1,0 +1,42 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Node modules (for React/Tailwind later)
+node_modules/
+
+# Build/dist folders
+dist/
+build/
+
+# Python cache (for FastAPI/backend later)
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Coverage/cache
+.cache/
+
+# Temporary files
+tmp/
+temp/
+
+# Package lock backups
+npm-debug.log*
+
+# Misc
+*.swp
