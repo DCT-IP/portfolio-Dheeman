@@ -261,6 +261,58 @@ a {
     z-index: 9999;
 }
 
+.terminal-box {
+
+    width: 70%;
+
+    max-width: 700px;
+
+    border: 1px solid var(--cyan);
+
+    padding: 2rem;
+
+    background:
+        rgba(0,255,255,0.03);
+
+    box-shadow:
+        0 0 20px rgba(0,255,255,0.15);
+    
+    overflow: hidden;
+}
+
+.boot-line {
+
+    margin-bottom: 1rem;
+}
+
+.terminal-input-line {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+#boot-input {
+
+    background: transparent;
+
+    border: none;
+
+    outline: none;
+
+    color: var(--cyan);
+
+    font-family: VT323, monospace;
+
+    font-size: 2rem;
+
+    width: 100%;
+
+    caret-color: var(--cyan);
+}
+
 .boot-text {
 
     color: #00ff99;

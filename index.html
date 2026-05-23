@@ -1,3 +1,4 @@
+<!--https://codepen.io/jcubic/pen/BwBYOZ-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,11 +13,38 @@
     <body>
 
     <div id="boot-screen">
-
-        <h1 class="boot-text">
-            > entering_system...
-        </h1>
-
+        <div class="terminal-box">
+            <p class="boot-line boot-delay-1">
+            Booting Dheeman.bin...
+            </p>
+            <p class="boot-line boot-delay-2">
+            memtest: 100% [ OK ]
+            </p>
+            <p class="boot-line boot-delay-3">
+            cpu test: 100% [ OK ]
+            </p>
+            <p class="boot-line boot-delay-4">
+            disk check: 100% [ OK ]
+            </p>
+            <p class="boot-line boot-delay-5">
+            Loading system...
+            </p>
+            <p class="boot-line boot-delay-6">
+            type "enter" to continue
+            </p>
+            <p class="boot-line boot-delay-7">
+            type "exit" to quit
+            </p>
+            <div class="terminal-input-line boot-delay-8">
+                <span>></span>
+                <input
+                type="text"
+                id="boot-input"
+                autocomplete="off"
+                autofocus
+                />
+            </div>
+        </div>
     </div>
 
     <div id="main-site">
