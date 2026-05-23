@@ -394,3 +394,20 @@ a {
         font-size: 1.2rem;
     }
 }
+
+#boot-log {
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.log-line {
+    opacity: 0;
+    animation:
+        logAppear 0.2s forwards;
+}
+
+@keyframes logAppear {
+    to {
+        opacity: 1;
+    }
+}
