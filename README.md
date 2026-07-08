@@ -1,45 +1,89 @@
-# Portfolio Website
+# RetroOS Portfolio
 
-Retro-web inspired engineering portfolio built while learning frontend, backend, cybersecurity, APIs, systems development, and quantitative tooling.
+An interactive operating system–inspired portfolio built from scratch while learning modern web development.
 
-This project acts as:
-- a personal portfolio
-- a frontend experimentation lab
-- a long-term full-stack engineering platform
+Rather than being a traditional portfolio website, this project is designed as a desktop environment that visitors can explore. Every feature is implemented incrementally as part of my journey through frontend, backend, systems programming, cybersecurity, and software engineering.
 
----
-
-## Current Focus
-
-Currently learning and building with:
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
-- Responsive Web Design
-
-Planned expansion:
-- React
-- Tailwind CSS
-- FastAPI
-- PostgreSQL
-- Docker
-- Authentication Systems
-- API Dashboards
-- Cybersecurity Tooling
-- Quantitative Visualizations
+The long-term goal is to make the portfolio feel like a small operating system, where projects, blogs, notes, and experiments are all accessible through windows, a virtual file system, and an interactive terminal.
 
 ---
 
-## Aesthetic Direction
+## Vision
 
-Inspired by:
-- early 2010s internet
-- retro web aesthetics
-- terminal interfaces
-- hacker culture
-- old forums/BBS systems
-- emoticon-heavy internet culture
+This project serves as:
+
+* an interactive engineering portfolio
+* a web development learning project
+* a playground for UI/UX experimentation
+* a long-term platform for documenting projects, blogs, and technical write-ups
+
+Every major feature is built progressively, with each development session focusing on learning a new concept rather than simply producing a finished interface.
+
+---
+
+## Planned Features
+
+### Desktop Environment
+
+* Boot sequence
+* Desktop icons
+* Window manager
+* Draggable windows
+* Multiple themes
+* Responsive layout
+
+### Terminal
+
+* Interactive command-line interface
+* Virtual file system
+* Project navigation
+* Built-in commands
+* Hidden easter eggs
+
+### Projects
+
+* Dedicated page for every major project
+* Architecture diagrams
+* Development timeline
+* Lessons learned
+* GitHub repository links
+
+### Blog
+
+* Markdown-powered articles
+* Development logs
+* Technical write-ups
+* Cybersecurity notes
+* Learning journal
+
+### Contact
+
+* Contact form
+* Social links
+* Resume download
+
+---
+
+## Tech Stack
+
+Current
+
+* HTML
+* CSS
+* JavaScript
+* Git
+* GitHub
+
+Planned
+
+* Vite
+* FastAPI
+* PostgreSQL
+* Docker
+* Markdown
+* REST APIs
+
+Additional technologies will be introduced only when they become part of the project.
 
 ---
 
@@ -52,16 +96,7 @@ portfolio/
 ├── index.html
 │
 ├── css/
-│   ├── style.css
-│   ├── layout.css
-│   ├── animations.css
-│   └── components.css
-│
 ├── js/
-│   ├── main.js
-│   ├── effects.js
-│   └── terminal.js
-│
 ├── assets/
 │   ├── images/
 │   ├── gifs/
@@ -69,25 +104,42 @@ portfolio/
 │   └── fonts/
 │
 ├── pages/
-│   ├── about.html
-│   ├── projects.html
-│   ├── experiments.html
-│   └── contact.html
-│
 ├── experiments/
-│   ├── typing-effect/
-│   ├── crt-effect/
-│   ├── floating-emoticons/
-│   ├── retro-buttons/
-│   └── terminal-ui/
-│
 ├── snippets/
-│   ├── notes.md
-│   ├── css-tricks.md
-│   └── inspiration-links.md
-│
 ├── backend/
-│
 ├── docs/
-│
 └── .gitignore
+```
+
+---
+
+## Roadmap
+
+* [x] Repository setup
+* [ ] Boot sequence
+* [ ] Desktop interface
+* [ ] Window manager
+* [ ] Interactive terminal
+* [ ] Virtual file system
+* [ ] Project pages
+* [ ] Markdown blog
+* [ ] Contact system
+* [ ] Backend integration
+* [ ] Analytics dashboard
+* [ ] Admin panel
+
+---
+
+## Inspiration
+
+Inspired by classic operating systems, terminal interfaces, retro web aesthetics, early internet design, and developer-focused personal websites.
+
+The implementation, architecture, and engineering decisions are being built from scratch as part of a long-term learning journey.
+
+---
+
+## Status
+
+🚧 Work in Progress
+
+This project is developed incrementally. New features are added as I learn the underlying concepts, making the repository both a portfolio and a record of my growth as an engineer.
