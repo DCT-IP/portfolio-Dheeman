@@ -1,0 +1,1 @@
+defer after script tag allows for file to be downloaded and used 

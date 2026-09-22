@@ -113,23 +113,6 @@ portfolio/
 
 ---
 
-## Roadmap
-
-* [x] Repository setup
-* [ ] Boot sequence
-* [ ] Desktop interface
-* [ ] Window manager
-* [ ] Interactive terminal
-* [ ] Virtual file system
-* [ ] Project pages
-* [ ] Markdown blog
-* [ ] Contact system
-* [ ] Backend integration
-* [ ] Analytics dashboard
-* [ ] Admin panel
-
----
-
 ## Inspiration
 
 Inspired by classic operating systems, terminal interfaces, retro web aesthetics, early internet design, and developer-focused personal websites.
